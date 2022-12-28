@@ -7,7 +7,6 @@ function App() {
     <div className="App">
     <h2>Estoy en App.js</h2>
     <Jsx></Jsx>
-    <Lista></Lista>
     </div>
   );
 }
