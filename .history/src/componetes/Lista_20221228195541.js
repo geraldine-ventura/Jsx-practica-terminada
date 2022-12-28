@@ -1,15 +1,11 @@
 import React,{useState,Fragment} from 'react'
 const  Lista= () => {
 
- const [arrayNumero, setArrayNumero]= useState([1,2,3,5,6])
-
- const[numero, setNumero]= useState(77)
+ const [arrayNumero, setNumero]= useState([1,2,3,5,6])
 
  const agregarElemento =() => {
-
-    setNumero(numero + 1)
-   // console.log ("click")
-    setArrayNumero([...arrayNumero,numero])
+    console.log ("click")
+    setNumero([...arrayNumero,77])
 }
     return ( 
         <Fragment>

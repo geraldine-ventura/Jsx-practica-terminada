@@ -3,7 +3,7 @@ const  Lista= () => {
 
  const [arrayNumero, setArrayNumero]= useState([1,2,3,5,6])
 
- const[numero, setNumero]= useState(77)
+ const[numero, setNumero]= useState(5)
 
  const agregarElemento =() => {
 
