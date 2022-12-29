@@ -6,14 +6,13 @@ import Lista from './componetes/Lista';
 function App() {
   return (
     <div className="App">
-     <h2>Estoy en App.js</h2>
-      <Jsx></Jsx>
-      <Lista></Lista>
+    <h2>Estoy en App.js</h2>
+    <Jsx></Jsx>
+    <Lista></Lista>
     
-       <div className='container mt-5'>
-         <Formulario></Formulario>
-       </div>
-
+    <div className='container mt-5'>
+    <Formulario></Formulario>
+    </div>
     </div>
   );
 }
